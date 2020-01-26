@@ -66,6 +66,7 @@ def feature_selection(data,features,cv=7,max_features=60,nb_iter=10**3,score='ac
     clf=clf(**clf_params)
     if clf==None:
       clf=DecisionTreeClassifier(**clf_params)
+    
     for i in range(nb_iter):
         ## draw a features subsample 
         sub_feat=random.choice(a=features,size=random.randint(low=3,high=max_features),replace=False)
