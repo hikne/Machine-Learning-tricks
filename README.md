@@ -1,2 +1,2 @@
-# Machile-Learning-tricks
+# Machine-Learning-tricks
 Some usefull machine learning &amp; Deep learning tricks
